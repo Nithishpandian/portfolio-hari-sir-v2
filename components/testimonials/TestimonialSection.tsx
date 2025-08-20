@@ -93,7 +93,7 @@ export default function TestimonialSection() {
           <span className="text-[#acd800]">Action.</span>
         </h2>
         <Image
-          className=" absolute right-[20%] h-fit w-40 rotate-12 opacity-30"
+          className=" absolute right-[20%] h-fit w-40 rotate-12 opacity-35"
           src={testimonial_decoration}
           alt="Testi"
         />
