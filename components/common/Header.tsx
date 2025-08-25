@@ -49,7 +49,7 @@ const Header: React.FC = () => {
             HOME
           </Link>
           <Link
-            href="#"
+            href="#About"
             className="hover:text-[#acd800] duration-300 cursor-pointer"
           >
             ABOUT
@@ -57,26 +57,32 @@ const Header: React.FC = () => {
         </div>
         <div className="flex flex-col gap-1">
           <Link
-            href="#"
+            href="#Experience"
             className="hover:text-[#acd800] duration-300 cursor-pointer"
           >
             EXPERIENCE
           </Link>
           <Link
-            href="#"
+            href="#Testimonials"
             className="hover:text-[#acd800] duration-300 cursor-pointer"
           >
             TESTIMONIALS
           </Link>
-          <button className="flex sm:hidden hover:text-[#acd800] text-[#acd800] duration-300 cursor-pointer">
-            <span>CONTACT</span>
-          </button>
+          <Link
+            href="#Contact"
+            className="flex sm:hidden hover:text-[#acd800] text-[#acd800] duration-300 cursor-pointer"
+          >
+            CONTACT
+          </Link>
         </div>
       </div>
 
-      <button className=" hidden sm:flex hover:text-[#acd800] text-[#acd800] duration-300 cursor-pointer">
-        <span>CONTACT</span>
-      </button>
+      <Link
+        href="#Contact"
+        className=" hidden sm:flex hover:text-[#acd800] text-[#acd800] duration-300 cursor-pointer"
+      >
+        CONTACT
+      </Link>
     </div>
   );
 };

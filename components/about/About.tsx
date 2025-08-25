@@ -2,7 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className=" mt-48 sm:mt-64 md:mt-96 grid grid-cols-1 lg:grid-cols-3 gap-4 justify-around pt-14 pb-16 px-2 sm:px-3 md:px-8">
+    <div
+      id="About"
+      className=" mt-48 sm:mt-64 md:mt-96 grid grid-cols-1 lg:grid-cols-3 gap-4 justify-around pt-14 pb-16 px-2 sm:px-3 md:px-8"
+    >
       <div
         // variants={AboutAnimationVariantLeft}
         // initial="initial"

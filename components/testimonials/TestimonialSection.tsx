@@ -49,7 +49,10 @@ export default function TestimonialSection() {
   };
 
   return (
-    <div className="w-full text-white rounded-lg py-12 grid md:grid-cols-3 md:items-start gap-5 px-3 sm:px-5 md:px-8">
+    <div
+      id="Testimonials"
+      className="w-full text-white rounded-lg py-12 grid md:grid-cols-3 md:items-start gap-5 px-3 sm:px-5 md:px-8"
+    >
       <div className="md:col-span-2 p-3 md:p-8 flex flex-col gap-8 rounded-3xl border-2 border-[#121212] bg-[#181818]">
         <p className=" text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed font-raleway opacity-90">
           {testimonials[currentIndex].text}

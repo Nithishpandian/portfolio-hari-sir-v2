@@ -3,10 +3,14 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className=" flex flex-col pt-10 pb-8 px-3 sm:px-5 md:px-7 lg:px-8">
+    <div
+      id="Contact"
+      className=" flex flex-col pt-10 pb-8 px-3 sm:px-5 md:px-7 lg:px-8"
+    >
       <div className=" flex items-center gap-5 text-sm font-medium font-oswald z-30">
         <Link
           href={"https://www.linkedin.com/in/harisuryanarayanan/"}
+          target="_blank"
           className="hover:text-[#acd800] duration-300 cursor-pointer"
         >
           LINKEDIN
