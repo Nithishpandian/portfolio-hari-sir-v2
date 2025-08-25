@@ -49,18 +49,18 @@ export default function TestimonialSection() {
   };
 
   return (
-    <div className="w-full text-white rounded-lg py-12 grid md:grid-cols-3 md:items-start gap-5 px-8">
-      <div className="md:col-span-2 md:p-10 flex flex-col gap-8 rounded-3xl border-2 border-[#121212] bg-[#181818]">
-        <p className="text-xl leading-relaxed font-raleway opacity-90">
+    <div className="w-full text-white rounded-lg py-12 grid md:grid-cols-3 md:items-start gap-5 px-3 sm:px-5 md:px-8">
+      <div className="md:col-span-2 p-3 md:p-10 flex flex-col gap-8 rounded-3xl border-2 border-[#121212] bg-[#181818]">
+        <p className=" text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed font-raleway opacity-90">
           {testimonials[currentIndex].text}
         </p>
 
         <div className="flex items-center justify-between">
           <div className=" font-montserrat">
-            <p className="font-medium text-lg ">
+            <p className="font-medium text-sm sm:text-base md:text-lg ">
               {testimonials[currentIndex].name}
             </p>
-            <p className="text-gray-400 font-medium">
+            <p className="text-gray-400 text-xs sm:text-sm md:text-base font-medium">
               {testimonials[currentIndex].role}
             </p>
           </div>

@@ -10,7 +10,7 @@ interface ExperienceCardProps {
 
 const Experience = () => {
   return (
-    <div className=" grid grid-cols-5 gap-5 justify-around pt-4 pb-10 px-10">
+    <div className=" grid grid-cols-1 lg:grid-cols-5 gap-5 justify-around pt-4 pb-10 px-3 sm:px-4 md:px-8 lg:px-6 xl:px-10">
       <div className=" col-span-2 flex flex-col gap-3">
         <h2 className="text-primary font-medium font-oswald text-[#acd800]">
           EXPERIENCE

@@ -11,11 +11,11 @@ import Marquee from "react-fast-marquee";
 
 const Certifications = () => {
   return (
-    <div className="relative pt-44 pb-24 overflow-hidden px-8">
+    <div className="relative pt-36 pb-20 xl:pt-44 xl:pb-24 overflow-hidden px-8">
       {/* Top banner with rotation */}
       <div className="absolute top-20 left-0 w-[120%] -ml-[10%] z-30">
-        <div className="w-full bg-[#acd800] py-4 transform -rotate-2 overflow-hidden opacity-80">
-          <div className="text-[#fafaf8] text-xl md:text-2xl font-bold px-4 whitespace-nowrap">
+        <div className="w-full bg-[#acd800] py-2 lg:py-4 transform -rotate-2 overflow-hidden opacity-80">
+          <div className="text-[#fafaf8] text-lg lg:text-2xl font-bold px-4 whitespace-nowrap">
             <Marquee pauseOnHover speed={80} gradient={false}>
               <span className="mx-3 flex items-center gap-1">
                 <Image
@@ -60,7 +60,7 @@ const Certifications = () => {
       </div>
 
       <div className="absolute top-20 left-0 w-[120%] -ml-[10%]">
-        <div className="w-full bg-[#1d1d1d] py-8 transform rotate-4 overflow-hidden "></div>
+        <div className="w-full bg-[#1d1d1d] py-5 lg:py-8 transform rotate-4 overflow-hidden "></div>
       </div>
 
       {/* Certificate marquee */}

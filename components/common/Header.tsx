@@ -40,7 +40,7 @@ const Header: React.FC = () => {
       className="flex items-start justify-between gap-5 py-5 font-medium font-oswald px-8"
     >
       <h1 className="text-lg text-[#acd800]">HARIHARA GOPALAN</h1>
-      <div className="grid grid-cols-2 gap-2 w-fit">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 w-fit">
         <div className="flex flex-col gap-1">
           <Link
             href="#"
@@ -68,10 +68,13 @@ const Header: React.FC = () => {
           >
             TESTIMONIALS
           </Link>
+          <button className="flex sm:hidden hover:text-[#acd800] text-[#acd800] duration-300 cursor-pointer">
+            <span>CONTACT</span>
+          </button>
         </div>
       </div>
 
-      <button className="hover:text-[#acd800] text-[#acd800] duration-300 cursor-pointer">
+      <button className=" hidden sm:flex hover:text-[#acd800] text-[#acd800] duration-300 cursor-pointer">
         <span>CONTACT</span>
       </button>
     </div>
