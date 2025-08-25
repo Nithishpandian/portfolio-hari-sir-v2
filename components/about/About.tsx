@@ -10,18 +10,18 @@ const About = () => {
         // viewport={{
         //   once: true,
         // }}
-        className="flex flex-col gap-5 z-0 bg-[#181818] p-3 sm:p-5 rounded-3xl"
+        className="flex flex-col gap-2 sm:gap-5 z-0 bg-[#181818] p-3 sm:p-5 rounded-3xl"
       >
         <h2 className="text-primary font-medium font-oswald text-[#acd800]">
           ABOUT ME
         </h2>
-        <h1 className="text-[#fafafa] text-2xl sm:text-3xl xl:text-[2.6rem] font-bold font-montserrat">
+        <h1 className="text-[#fafafa] text-xl sm:text-3xl xl:text-[2.6rem] font-bold font-montserrat">
           A Cyber Security Specialist & Consultant
         </h1>
       </div>
       <div className="col-span-2 flex flex-col gap-3">
         <div className=" flex flex-col gap-4 bg-[#181818] py-3 sm:py-5 px-3 sm:px-6 rounded-3xl font-raleway text-justify">
-          <h1 className="text-[#fafafa] text-lg sm:text-xl xl:text-[1.6rem] font-bold">
+          <h1 className="text-[#fafafa] text-base sm:text-xl xl:text-[1.6rem] font-bold">
             A seasoned academic with over 17 years of expertise in teaching,
             research, and consultancy, specializing in Cyber Security and
             Wireless Networks. Currently serving as an Associate Professor in
@@ -29,7 +29,7 @@ const About = () => {
             certifications including CEH, CISO, and Certified Blockchain
             Associate.
           </h1>
-          <p className="text-stone-300 text-sm lg:text-base">
+          <p className="text-stone-300 text-xs sm:text-sm lg:text-base">
             Instrumental in designing and implementing over 10 advanced
             cybersecurity courses and specializations across institutions. Has
             successfully established a Centre of Excellence in Cyber Security,
